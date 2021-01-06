@@ -1,0 +1,15 @@
+# This is a TOML document.
+# It provides configuration data for program aspexv1.go
+
+title = "aspexv1 configuration file"
+
+[logging]
+filename = "aspexv1.log"
+dir = "./logs/"
+
+[devparms]
+debug = false
+
+[app]
+shortname = "aspexv1"
+softlicencetype   = "The Apache 2 License"

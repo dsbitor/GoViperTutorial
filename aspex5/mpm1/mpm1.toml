@@ -1,0 +1,30 @@
+# This is a TOML document.
+# It provides configuration data for - mpm2.go
+
+title = "mpm2 configuration file"
+
+hostname = "ITOR"
+wrkdir = "./data"
+linect = 66
+
+[logging]
+filename = "aspexv2.log"
+# logs are stored in the logs subdirectory of the users home directory
+dir = "/logs/"
+loglevel = "TRACE"
+log = true
+
+[devparms]
+debug = false
+trace = false
+
+[app]
+    [app.id]
+    name = "mpm2 - A simple Example of a Viper/Cobra Configuration File"
+    shortname = ".mpm2.toml"
+    softlicencetype   = "The Apache 2 License"
+    [app.developer]
+    shortorg = "ITOR"
+    org = "I.T. Operational Risk Ltd., Toronto Canada"
+    emailaddr = "itoprisk@gmail.com"
+    website = "www.itor.io"

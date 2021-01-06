@@ -1,0 +1,33 @@
+datadir = "/Users/davidbanham/tmpr"
+homedir = "/Users/davidbanham"
+hostname = "dsbs-MacBook-Pro.local"
+linect = 66
+support = "itoprisk@gmail.com"
+title = "mpm2 configuration file"
+tmpdir = "/var/folders/2d/zr1crjmn35z5g09gdqwcdr_80000gp/T/"
+wrkdir = "/Users/davidbanham/tmp/"
+
+[app]
+  softlicencetype = "MIT"
+
+  [app.developer]
+    emailaddr = "itoprisk@gmail.com"
+    org = "I.T. Operational Risk Ltd., Toronto Canada"
+    shortorg = "ITOR"
+    website = "www.itor.io"
+
+  [app.id]
+    name = "mpm2 - A simple Example of a Viper/Cobra Configuration File"
+    shortname = "mpm2"
+    softlicencetype = "The Apache 2 License"
+
+[devparms]
+  debug = false
+  trace = true
+
+[logging]
+  dir = "/logs/"
+  filename = "aspexv2.log"
+  log = true
+  loglevel = "TRACE"
+  tstamp = "highres"
