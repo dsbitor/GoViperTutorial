@@ -21,7 +21,8 @@ Viper is a complete configuration solution for Go applications including 12-Fact
 
 Viper acts as a registry for all the application's configuration needs.
 
-Note that Viper also allows the program to save its current configuration values, allowing them to be reloaded or referenced later or by a different program in a suite of programs.
+Note that Viper also allows the program to save its current configuration values, allowing them to be reloaded or referenced later 
+or by a different program in a suite of programs.
 For general use, the tutorial provides enough options for flexible configuration management.
 
 
